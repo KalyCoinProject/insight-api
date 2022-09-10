@@ -56,7 +56,7 @@ TransactionService.prototype.addReceiptIfTransfersExists = function(transaction,
 
             return self.erc20TransferRepository.isTransfersExistsByTxHash(transaction.hash, function(err, exists) {
 
-                transaction.isklc20Transfer = exists;
+                transaction.iskrc20Transfer = exists;
 
                 return callback(err);
             });

@@ -8,9 +8,9 @@
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [DGP info](#dgpinfo)
-* [KLC20 info](#klc20-info)
-* [KLC20 transfers](#klc20-transfers)
-* [KLC20 balances](#klc20-balances)
+* [KRC20 info](#krc20-info)
+* [KRC20 transfers](#krc20-transfers)
+* [KRC20 balances](#krc20-balances)
 
 ### Statistics
 * [Total 24h](#total-24h-statistic)
@@ -761,17 +761,17 @@ resp:
 }
 ```
 
-### KLC20 info
+### KRC20 info
 ```
   /insight-api/erc20/:contractAddress
   > DEPRECATED
 ```
     
 ```
-  /insight-api/klc20/:contractAddress
+  /insight-api/krc20/:contractAddress
 ```
 
-### KLC20 transfers
+### KRC20 transfers
 
 If you want to get receipt, then add "withReceipt=true" to the query
 
@@ -779,7 +779,7 @@ If you want to get receipt, then add "withReceipt=true" to the query
   /insight-api/erc20/:contractAddress/transfers
 ```
 
-### KLC20 balances
+### KRC20 balances
 ```
   /insight-api/erc20/:contractAddress/balances
 ```
